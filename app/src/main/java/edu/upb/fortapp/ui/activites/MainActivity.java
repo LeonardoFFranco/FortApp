@@ -1,8 +1,10 @@
-package edu.upb.fortapp;
+package edu.upb.fortapp.ui.activites;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import edu.upb.fortapp.R;
 
 public class MainActivity extends AppCompatActivity {
 
