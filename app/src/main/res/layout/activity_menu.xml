@@ -58,28 +58,31 @@
         android:id="@+id/button12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="320dp"
+        android:layout_marginTop="324dp"
         android:text="News"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="wrap_content"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="138dp"
-        android:layout_marginLeft="138dp"
+        android:layout_marginLeft="60dp"
         android:layout_marginEnd="60dp"
         android:layout_marginRight="60dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="FortApp"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="74dp" />
+        tools:layout_editor_absoluteY="131dp"
+        tools:text="FortApp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
