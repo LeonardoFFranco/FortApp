@@ -19,5 +19,9 @@
         <activity android:name=".ui.activites.MainActivity"/>
         <activity android:name=".ui.activites.MenuActivity"/>
         <activity android:name=".ui.activites.MapActivity"/>
+        <activity android:name=".ui.activites.BattlePassActivity"/>
+        <activity android:name=".ui.activites.ItemShopActivity"/>
+        <activity android:name=".ui.activites.NewsActivity"/>
+        <activity android:name=".ui.activites.WeaponsActivity"/>
     </application>
 </manifest>
