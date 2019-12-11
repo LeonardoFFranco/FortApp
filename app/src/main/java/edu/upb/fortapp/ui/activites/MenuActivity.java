@@ -13,6 +13,7 @@ import edu.upb.fortapp.R;
 public class MenuActivity extends AppCompatActivity {
 
     private Button map;
+    private Button news;
     private Context context;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,11 +21,19 @@ public class MenuActivity extends AppCompatActivity {
         this.context=this;
         setContentView(R.layout.activity_menu);
         this.map=findViewById(R.id.button11);
+        this.news=findViewById(R.id.button12);
 
         this.map.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(context, MapActivity.class);
+                startActivity(intent);
+            }
+        });
+        this.news.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context, NewsActivity.class);
                 startActivity(intent);
             }
         });
