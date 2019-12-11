@@ -50,6 +50,7 @@ public class WeaponsUtils {
         weapons.add(new Weapon(10, "Tactical Shotgun", R.drawable.tactica5, "Legendary",30,60,"2.5s",5.5));
 
         return weapons;
+
     }
 }
 

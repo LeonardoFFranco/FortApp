@@ -50,7 +50,7 @@ public class MenuActivity extends AppCompatActivity {
         this.weapons.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(context, WeaponsActivity.class);
+                Intent intent = new Intent(context, WeaponsListActivity.class);
                 startActivity(intent);
             }
         });
@@ -74,7 +74,7 @@ public class MenuActivity extends AppCompatActivity {
             public void onClick(View v) {
                 FragmentManager fm = getFragmentManager();
                 MyDialogFragment dialogFragment = new MyDialogFragment ();
-                dialogFragment.show(fm, "Sample Fragment");
+               // dialogFragment.show(fm, "Sample Fragment");
             }
         });
 

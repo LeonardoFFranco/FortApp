@@ -11,6 +11,7 @@ public class Weapon {
     private double fireRate;
 
 
+
     public Weapon(int id, String name, int image, String type,int damage,int head,String reload,double fireRate) {
         this.id = id;
         this.name = name;
