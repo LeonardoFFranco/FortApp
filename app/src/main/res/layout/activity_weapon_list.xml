@@ -4,9 +4,6 @@
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
     android:orientation="vertical">
-
-
-
     <ListView
         android:id="@+id/listViewMyWeapons"
         android:layout_width="match_parent"
