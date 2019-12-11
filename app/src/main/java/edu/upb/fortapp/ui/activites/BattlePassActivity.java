@@ -1,4 +1,6 @@
 package edu.upb.fortapp.ui.activites;
 
-public class BattlePassActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class BattlePassActivity extends AppCompatActivity {
 }
