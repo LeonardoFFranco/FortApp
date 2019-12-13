@@ -4,94 +4,111 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
 
     <Button
         android:id="@+id/button11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="124dp"
+
+        style="@style/Widget.AppCompat.Button.Colored"
+
+        android:layout_width="175dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="315dp"
+        android:background="@drawable/custom_but"
+        android:hapticFeedbackEnabled="false"
         android:text="Map"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="400dp"
+        android:layout_width="175dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="504dp"
+        android:background="@drawable/custom_but"
         android:text="Item Shop"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="472dp"
+        android:layout_width="175dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="564dp"
+        android:background="@drawable/custom_but"
         android:text="Information"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="260dp"
+        android:layout_width="175dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="376dp"
+        android:background="@drawable/custom_but"
         android:text="Weapons"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="330dp"
+        android:layout_width="175dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/custom_but"
         android:text="Battle Pass"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <!-- <Button
         android:id="@+id/button12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="190dp"
+        android:layout_width="175dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="316dp"
+        android:background="@drawable/custom_but"
         android:text="News"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" />-->
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="211dp"
-        android:layout_height="113dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginRight="100dp"
-        android:layout_marginBottom="23dp"
-        android:text="FortApp"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
-        app:layout_constraintBottom_toTopOf="@+id/button11"
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="57dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fortlogo3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

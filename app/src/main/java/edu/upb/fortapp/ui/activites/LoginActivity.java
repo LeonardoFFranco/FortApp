@@ -42,8 +42,8 @@ public class LoginActivity extends AppCompatActivity {
         initUI();
         initEvents();
 
-        emailEditText.setText("cualquiera@pumatiti.com");
-        passwordEditText.setText("noImporta");
+        emailEditText.setText("cualquiera@gmail.com");
+        passwordEditText.setText("fortapp");
 
         Intent intent = getIntent();
         if (intent.hasExtra("message")) {
@@ -83,7 +83,6 @@ public class LoginActivity extends AppCompatActivity {
                                 Intent intent = new Intent(context, MenuActivity.class);
                                 startActivity(intent);
 
-                                //executeLongAction();
 
                             } else {
                                 Toast.makeText(context,
@@ -139,27 +138,4 @@ public class LoginActivity extends AppCompatActivity {
         Log.e(LOG, "onDestroy");
     }
 
-    public void registerClick(View view) {
-        Log.e(LOG, "registerClick");
-    }
-       /* private Button login;
-        private Context context;
-        @Override
-        protected void onCreate(Bundle savedInstanceState) {
-            super.onCreate(savedInstanceState);
-            this.context=this;
-            setContentView(R.layout.login_layout_prueba);
-            this.login=findViewById(R.id.button4);
-
-            this.login.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent intent = new Intent(context, MenuActivity.class);
-                    startActivity(intent);
-                }
-            });
-
-        }
-
-        */
 }
