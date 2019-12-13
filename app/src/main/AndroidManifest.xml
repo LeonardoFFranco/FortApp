@@ -9,16 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.activites.WeaponsListActivity">
+        <activity android:name=".ui.activites.LoginActivity"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".ui.activites.WeaponsDetailsActivity"
-            android:screenOrientation="portrait" />
+        <activity android:name=".ui.activites.MainActivity"/>
+        <activity android:name=".ui.activites.MenuActivity"/>
+        <activity android:name=".ui.activites.MapActivity"/>
+        <activity android:name=".ui.activites.BattlePassActivity"/>
+        <activity android:name=".ui.activites.ItemShopActivity"/>
+        <activity android:name=".ui.activites.NewsActivity"/>
+        <activity android:name=".ui.activites.WeaponsActivity"/>
     </application>
-
 </manifest>
