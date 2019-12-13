@@ -20,6 +20,7 @@ public class MenuActivity extends AppCompatActivity {
     private Button itemshop;
     private Button information;
     private Context context;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
