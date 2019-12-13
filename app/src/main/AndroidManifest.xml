@@ -23,6 +23,8 @@
         <activity android:name=".ui.activites.BattlePassActivity"/>
         <activity android:name=".ui.activites.ItemShopActivity"/>
         <activity android:name=".ui.activites.NewsActivity"/>
-        <activity android:name=".ui.activites.WeaponsActivity"/>
+        <activity android:name=".ui.activites.WeaponsDetailsActivity"/>
+        <activity android:name=".ui.activites.WeaponsListActivity"/>
+
     </application>
 </manifest>
