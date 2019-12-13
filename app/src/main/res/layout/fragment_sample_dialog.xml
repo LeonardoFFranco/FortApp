@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/image"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="327dp"
+        android:layout_height="464dp"
         android:src="@drawable/frag2" />
 
     <TextView
@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="303dp"
         android:text="Para mas informacion sobre Fortnite puedes contactarte con el representante en Bolvia, Luis Gumiel al celular 67020033"
-        android:textSize="30dp" />
+        android:textSize="20dp" />
 
     <Button
         android:id="@+id/dismiss"
