@@ -14,7 +14,7 @@
 
         android:layout_width="175dp"
         android:layout_height="47dp"
-        android:layout_marginTop="315dp"
+        android:layout_marginTop="250dp"
         android:background="@drawable/custom_but"
         android:hapticFeedbackEnabled="false"
         android:text="Map"
@@ -30,7 +30,7 @@
         android:id="@+id/button9"
         android:layout_width="175dp"
         android:layout_height="47dp"
-        android:layout_marginTop="504dp"
+        android:layout_marginTop="465dp"
         android:background="@drawable/custom_but"
         android:text="Item Shop"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
@@ -45,7 +45,7 @@
         android:id="@+id/button"
         android:layout_width="175dp"
         android:layout_height="47dp"
-        android:layout_marginTop="564dp"
+        android:layout_marginTop="535dp"
         android:background="@drawable/custom_but"
         android:text="Information"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
@@ -57,10 +57,25 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:id="@+id/button2"
+        android:layout_width="175dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/custom_but"
+        android:text="Battle Pass"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
         android:id="@+id/button13"
         android:layout_width="175dp"
         android:layout_height="47dp"
-        android:layout_marginTop="376dp"
+        android:layout_marginTop="325dp"
         android:background="@drawable/custom_but"
         android:text="Weapons"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
@@ -75,7 +90,7 @@
         android:id="@+id/button12"
         android:layout_width="175dp"
         android:layout_height="47dp"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="25dp"
         android:background="@drawable/custom_but"
         android:text="News"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"

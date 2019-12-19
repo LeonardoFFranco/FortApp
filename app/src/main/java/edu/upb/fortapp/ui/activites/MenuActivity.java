@@ -29,7 +29,7 @@ public class MenuActivity extends AppCompatActivity {
         this.map=findViewById(R.id.button11);
         this.news=findViewById(R.id.button12);
         this.weapons=findViewById(R.id.button13);
-        //this.bp=findViewById(R.id.button14);
+        this.bp=findViewById(R.id.button2);
         this.itemshop=findViewById(R.id.button9);
         this.information=findViewById(R.id.button);
 
@@ -55,13 +55,13 @@ public class MenuActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-       /* this.bp.setOnClickListener(new View.OnClickListener() {
+        this.bp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(context, BattlePassActivity.class);
                 startActivity(intent);
             }
-        });*/
+        });
 
         this.itemshop.setOnClickListener(new View.OnClickListener() {
             @Override
