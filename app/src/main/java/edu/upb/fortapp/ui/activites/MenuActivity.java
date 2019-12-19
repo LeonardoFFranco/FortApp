@@ -51,7 +51,7 @@ public class MenuActivity extends AppCompatActivity {
         this.weapons.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(context, WeaponsListActivity.class);
+                Intent intent = new Intent(context, Weapons2Activity.class);
                 startActivity(intent);
             }
         });

@@ -24,6 +24,8 @@
         <activity android:name=".ui.activites.ItemShopActivity"/>
         <activity android:name=".ui.activites.WeaponsDetailsActivity"/>
         <activity android:name=".ui.activites.WeaponsListActivity"/>
+        <activity android:name=".ui.activites.Weapons2Activity"/>
+        <activity android:name=".ui.activites.WeaponsDetails2"/>
         <activity android:name=".ui.activites.NoticiasActivity"/>
 
 

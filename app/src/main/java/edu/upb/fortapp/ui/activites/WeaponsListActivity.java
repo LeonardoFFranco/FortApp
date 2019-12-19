@@ -15,6 +15,7 @@ import java.util.List;
 import edu.upb.fortapp.R;
 import edu.upb.fortapp.ui.activites.utils.Weapon;
 import edu.upb.fortapp.ui.activites.utils.WeaponsUtils;
+import edu.upb.fortapp.ui.adapters.WeaponsListViewAdapter;
 
 public class WeaponsListActivity  extends AppCompatActivity {
     private ListView listview;

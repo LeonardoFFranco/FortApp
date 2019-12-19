@@ -1,4 +1,4 @@
-package edu.upb.fortapp.ui.activites;
+package edu.upb.fortapp.ui.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
