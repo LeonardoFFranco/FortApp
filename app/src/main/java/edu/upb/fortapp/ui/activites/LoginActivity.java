@@ -42,7 +42,7 @@ public class LoginActivity extends AppCompatActivity {
         initUI();
         initEvents();
 
-        emailEditText.setText("cualquiera@gmail.com");
+        emailEditText.setText("fortapp@gmail.com");
         passwordEditText.setText("fortapp");
 
         Intent intent = getIntent();
@@ -78,6 +78,7 @@ public class LoginActivity extends AppCompatActivity {
                         @Override
                         public void onChanged(Base base) {
                             if (base.isSuccess()) {
+
                                 UserLogged userLogged = (UserLogged) base.getData();
 
                                 Intent intent = new Intent(context, MenuActivity.class);

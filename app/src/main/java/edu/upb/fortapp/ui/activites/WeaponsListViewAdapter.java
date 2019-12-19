@@ -11,6 +11,7 @@ import android.widget.TextView;
 import java.util.List;
 
 import edu.upb.fortapp.R;
+import edu.upb.fortapp.ui.activites.utils.Weapon;
 
 public class WeaponsListViewAdapter extends BaseAdapter {
     private Context context;

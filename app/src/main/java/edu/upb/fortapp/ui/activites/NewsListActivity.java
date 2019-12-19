@@ -10,6 +10,8 @@ import com.google.gson.Gson;
 import java.util.List;
 
 import edu.upb.fortapp.R;
+import edu.upb.fortapp.ui.activites.utils.NewsUtils;
+import edu.upb.fortapp.ui.activites.utils.Noticia;
 
 public class NewsListActivity  extends AppCompatActivity {
     private ListView listview;

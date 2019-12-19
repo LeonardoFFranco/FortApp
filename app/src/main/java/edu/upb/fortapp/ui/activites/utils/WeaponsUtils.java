@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import edu.upb.fortapp.R;
-import edu.upb.fortapp.ui.activites.Weapon;
 
 public class WeaponsUtils {
 

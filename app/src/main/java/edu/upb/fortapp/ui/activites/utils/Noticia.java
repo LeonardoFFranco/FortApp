@@ -1,4 +1,4 @@
-package edu.upb.fortapp.ui.activites;
+package edu.upb.fortapp.ui.activites.utils;
 
 public class Noticia  {
         private int uuid;

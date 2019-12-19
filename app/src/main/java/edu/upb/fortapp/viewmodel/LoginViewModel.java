@@ -13,11 +13,12 @@ import com.google.firebase.auth.FirebaseUser;
 import edu.upb.fortapp.models.Base;
 import edu.upb.fortapp.models.UserLogged;
 import edu.upb.fortapp.repository.Repository;
+import edu.upb.fortapp.repository.RepositoryImpl;
 import edu.upb.fortapp.utils.ResponseMapper;
 
 public class LoginViewModel extends AndroidViewModel {
 
-    private Repository repository;
+    private RepositoryImpl repository;
 
     public LoginViewModel(@NonNull Application application) {
         super(application);

@@ -1,10 +1,11 @@
-package edu.upb.fortapp.ui.activites;
+package edu.upb.fortapp.ui.activites.utils;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import edu.upb.fortapp.R;
 import edu.upb.fortapp.repository.api.NoticiaAPI;
+import edu.upb.fortapp.ui.activites.utils.Noticia;
 import edu.upb.fortapp.utils.Constants;
 import retrofit2.Call;
 import retrofit2.Callback;

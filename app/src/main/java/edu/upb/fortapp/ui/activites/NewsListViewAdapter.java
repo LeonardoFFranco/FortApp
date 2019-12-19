@@ -11,6 +11,7 @@ import android.widget.TextView;
 import java.util.List;
 
 import edu.upb.fortapp.R;
+import edu.upb.fortapp.ui.activites.utils.Noticia;
 
 public class NewsListViewAdapter  extends BaseAdapter {
     private Context context;

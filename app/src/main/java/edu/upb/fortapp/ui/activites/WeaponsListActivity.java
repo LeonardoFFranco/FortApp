@@ -13,6 +13,7 @@ import com.google.gson.Gson;
 import java.util.List;
 
 import edu.upb.fortapp.R;
+import edu.upb.fortapp.ui.activites.utils.Weapon;
 import edu.upb.fortapp.ui.activites.utils.WeaponsUtils;
 
 public class WeaponsListActivity  extends AppCompatActivity {

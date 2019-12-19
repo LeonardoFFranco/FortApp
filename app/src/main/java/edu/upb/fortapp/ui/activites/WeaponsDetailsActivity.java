@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.gson.Gson;
 
 import edu.upb.fortapp.R;
+import edu.upb.fortapp.ui.activites.utils.Weapon;
 
 public class WeaponsDetailsActivity extends AppCompatActivity {
 
